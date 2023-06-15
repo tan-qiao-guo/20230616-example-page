@@ -1,5 +1,5 @@
 ---
-title: "20230616_use_rmarkdown_and_github"
+title: "如何在GitHub上建立网页"
 author: "Tan, Qiaoguo"
 date: "2023-06-15"
 output: html_document
@@ -8,6 +8,101 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+以下介绍如何在GitHub网站上托管用R Markdown生成的html文件。
+
+# 1. 注册GitHub账号  
+打开以下链接，用你的常用永久邮箱（例如QQ邮箱、foxmail等）注册GitHub账号，注意不要用大学邮箱、学生邮箱等非永久的邮箱注册，以免哪天就不能用了。
+github网站链接：https://github.com/
+
+
+# 2. 在GitHub中创建仓库
+
+打开浏览器，转到你的GitHub页面。创建一个新的仓库（Create a new repository）。 在以下的示例中，我将创建名为“20230616-example-page”的仓库。接下来，我会把html文件保存到这个仓库中。
+  
+![](pics/pic1.png)
+
+
+# 3. 下载GitHub桌面版
+
+从以下链接下载并安装GitHub桌面版：
+https://desktop.github.com/
+
+  
+# 4：打开GitHub桌面应用程序
+* 打开GitHub应用程序，登录账号，您将看到“Let's get started”页面。   
+* 点选页面右侧"20230616-example-page”的仓库,然后点击下方的蓝色“Clone...”按钮。  
+* 你会看到窗口弹出，提示你设定计算机上的文件夹地址，用以保存你克隆的仓库。目前建议选择默认的地址，并记住这个地址。
+* 进入以上文件夹，新建名为docs的文件夹。我们接下来会把html文件保存到这个文件夹中。  
+  
+![](pics/pic2.png)
+
+
+
+# 5. 设置 GitHub 页面功能
+
+* 返回浏览器，打开的GitHub仓库 https://github.com/tan-qiao-guo/20230616-example-page  
+* 点击“Setting”选项卡  
+![](pics/pic3.png)
+* 点击左侧“Pages”选项卡，在此设置GitHub页面功能。  
+
+
+* 如上图所示，将“none”改为“main”，填入文件地址“docs”，单击“Save”，保存设置。  
+
+* GitHub 将生成一个url链接（如上图长条椭圆中所示）。这可能需要好几分钟才会出现，需耐心等待，每隔几分钟刷新一次看看。
+
+
+# 第 5 步：创建 R Markdown html
+设置 GitHub 页面并激活 url 后，启动 RStudio 并创建一个新的 R Markdown 文件。
+
+这将生成一个 R Markdown 默认模板，我们将用于我们的 html 示例。
+
+
+接下来，您要单击“Knit”并选择“Knit to HTML”。系统将要求您保存 HTML 文件。导航到“docs”文件夹并将 HTML 文件另存为“index”。这会将您的 HTML 文件保存为“docs”文件夹中的“index.html”。接下来，将 R Markdown 文件保存为“docs”文件夹中的“index.Rmd”。 “docs”文件夹中应该有两个文件：“index.html”和“index.Rmd”
+
+
+# 第 6 步：将更改推送到主分支
+
+
+在“docs”文件夹中保存你的 R Markdown 文件和 html 文件后，你需要将这些更改推送到主分支。返回到您的 GitHub 应用程序并查看所做的更改。我们有两项更改反映了将两个文件添加到“docs”文件夹中。
+
+每次对主分支进行更改时，都必须输入一个简短的注释。我输入了“构建 R Markdown HTML 页面”作为我的简短说明的标题，然后我包含了对该更改的简短描述。
+
+
+接下来，我单击“Commit to main”以对 GitHub 应用程序进行更改。您将收到一条消息，将这些更改推送到主分支。确保选择“Push origin”以完成对主分支的更改。
+
+
+# 第 7 步：在您的 GitHub url 链接上查看您的 R Markdown html 文件
+
+将最终更改推送到主分支后，R Markdown html 文件将托管在您生成的 GitHub url 链接上。
+
+
+
+
+
+
+
+Plain text
+End a line with two spaces
+to start a new paragraph.
+*italics* and _italics_
+**bold** and __bold__
+superscript^2^
+~~strikethrough~~
+[link](www.rstudio.com)
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+endash: --
+emdash: ---
+ellipsis: ...
+inline equation: $A = \pi*r^{2}$
+image: ![](path/to/smallorb.png)
+horizontal rule (or slide break):
+***
 
 ## R Markdown
 
@@ -28,3 +123,8 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+参考资料：
+
+https://mbounthavong.com/blog/2022/7/30/hosting-a-r-markdown-html-file-on-a-github-page
