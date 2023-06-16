@@ -74,7 +74,9 @@ https://desktop.github.com/
 
 * 输入简单描述，即可激活蓝色“Commit to main”按钮（如上图）  
 
-* 点击上方“Push origin”，以完成更改的推送。
+![](pics/pic7.png)
+
+* 点击上方“Push origin”，以完成推送。由于网络问题，时常会出现反应慢、推送失败等情况，多试几次，终会成功。
 
 
 ## 8. 查看网页
