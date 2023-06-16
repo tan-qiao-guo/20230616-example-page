@@ -25,24 +25,31 @@ github网站链接：https://github.com/
 
 * 输入“Repository name”，在以下的示例中，我将创建名为“20230616-example-page”的仓库。  
 
+<br/> 
 
 ```{r img-with-knitr, echo=FALSE, fig.align='center', out.width='100%', fig.cap=' '}
 knitr::include_graphics("pics/pic1.png")
 ```
 
-
+<br/>   
+  
 
 
 * 勾选“Add a README file”（非必需）。  
 
 * 拉到页面下方，点击绿色“Create  repository”按钮，保存。  
 
-接下来，我们会把html文件保存到这个仓库中。
 
+
+<br/> 
 
 ```{r img-with-knitr2, echo=FALSE, fig.align='center', out.width='100%', fig.cap=' '}
 knitr::include_graphics("pics/pic1a.png")
 ```
+
+<br/> 
+
+接下来，我们会把html文件保存到这个仓库中。  
 
 
 ## 3. 下载GitHub桌面版
@@ -57,11 +64,13 @@ https://desktop.github.com/
 * 你会看到窗口弹出，提示你设定计算机上的文件夹地址，用以保存你克隆的仓库。目前建议选择默认的地址，并记住这个地址。
 * 进入以上文件夹，新建名为docs的文件夹。我们接下来会把html文件保存到这个文件夹中。  
 
+<br/> 
+
 ```{r img-with-knitr3, echo=FALSE, fig.align='center', out.width='33%', fig.cap=' '}
 knitr::include_graphics("pics/pic2.png")
 ```
-  
 
+<br/> 
 
 
 
@@ -70,18 +79,28 @@ knitr::include_graphics("pics/pic2.png")
 * 返回浏览器，打开的GitHub仓库，例如 https://github.com/tan-qiao-guo/20230616-example-page  
 * 点击“Settings”选项卡。  
 
+<br/> 
+
 ```{r img-with-knitr4, echo=FALSE, fig.align='center', out.width='100%', fig.cap=' '}
 knitr::include_graphics("pics/pic3.png")
 ```
 
-* 点击左侧“Pages”选项卡，在此设置GitHub页面功能。  
+<br/> 
 
+  
+  
+* 点击左侧“Pages”选项卡，在此设置GitHub页面功能。   
+
+<br/> 
 
 ```{r img-with-knitr5, echo=FALSE, fig.align='center', out.width='100%', fig.cap=' '}
 knitr::include_graphics("pics/pic4.png")
 ```
 
-
+<br/> 
+  
+  
+  
 * 如上图所示，将“none”改为“main”，填入文件地址“docs”，单击“Save”，保存设置。  
 
 * GitHub 将生成一个url链接（如上图长条椭圆中所示）。这可能需要好几分钟才会出现，需耐心等待，每隔几分钟刷新一次看看。  
@@ -93,26 +112,35 @@ knitr::include_graphics("pics/pic4.png")
 
 * 单击“Knit”并选择“Knit to HTML”，保存html文件到上面建立的“docs”文件夹中，并将html 文件命名为“index”，你会在“docs”文件夹中看到“index.html”和“index.Rmd”两个文件。  
 
+<br/> 
 
-```{r img-with-knitr6, echo=FALSE, fig.align='center', out.width='33%', fig.cap=' '}
+```{r img-with-knitr6, echo=FALSE, fig.align='center', out.width='40%', fig.cap=' '}
 knitr::include_graphics("pics/pic5.png")
 ```
 
+<br/> 
 
 ## 7. 推送文件到仓库中  
 
 * 返回到GitHub应用程序，如下图所示，可以看到所做的更改  
 
+<br/> 
+
 ```{r img-with-knitr7, echo=FALSE, fig.align='center', out.width='70%', fig.cap=' '}
 knitr::include_graphics("pics/pic6.png")
 ```
 
+<br/> 
 
 * 输入简单描述，即可激活蓝色“Commit to main”按钮（如上图）  
+
+<br/> 
 
 ```{r img-with-knitr8, echo=FALSE, fig.align='center', out.width='70%', fig.cap=' '}
 knitr::include_graphics("pics/pic7.png")
 ```
+
+<br/> 
 
 
 
