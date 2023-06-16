@@ -58,7 +58,7 @@ knitr::include_graphics("pics/pic1a.png")
 https://desktop.github.com/
 
   
-## 4：打开GitHub桌面应用程序
+## 4. 打开GitHub桌面应用程序
 * 打开GitHub应用程序，登录账号（可能因为网络连接问题，反应较慢），你将看到“Let's get started”页面。   
 * 点选页面右侧"20230616-example-page”的仓库,然后点击下方的蓝色“Clone...”按钮。  
 * 你会看到窗口弹出，提示你设定计算机上的文件夹地址，用以保存你克隆的仓库。目前建议选择默认的地址，并记住这个地址。
