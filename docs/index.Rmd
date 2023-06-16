@@ -18,12 +18,16 @@ github网站链接：https://github.com/
 
 ## 2. 在GitHub中创建仓库
 
-打开浏览器，转到你的GitHub页面。创建一个新的仓库（Create a new repository）。 
-* 输入“Repository name”，在以下的示例中，我将创建名为“20230616-example-page”的仓库。   
+打开浏览器，转到你的GitHub页面。创建一个新的仓库（Create a new repository）。  
+
+* 输入“Repository name”，在以下的示例中，我将创建名为“20230616-example-page”的仓库。  
+
   
 ![](pics/pic1.png)
 * 勾选“Add a README file”（非必需）。  
-* 拉到页面下方，点击绿色“Create  repository”按钮，保存。 
+
+* 拉到页面下方，点击绿色“Create  repository”按钮，保存。  
+
 接下来，我们会把html文件保存到这个仓库中。
 
 
