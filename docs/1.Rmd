@@ -1,0 +1,60 @@
+---
+title: "Untitled"
+author: "Tan, Qiaoguo"
+date: "2023-06-16"
+output: 
+  html_document:
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+这是一段普通的不带格式的文字。   
+
+在段落末尾加上两个空格并回车，就可以换行新起一段。
+如果没有两个空格，回车也不会换行。
+
+也可以通过空一行达到换行的目的。  
+
+## 字体的设置  
+
+斜体：`*斜体了*`,效果是*斜体了*。  
+
+粗体：`**粗体了**`,效果是**粗体了**。  
+粗斜体：`***粗斜体了***`,效果是***粗斜体了***。  
+
+HSO~4~^-^
+[GitHub网站](https://tan-qiao-guo.github.io/20230616-example-page/)
+
+# 一级标题
+## 二级标题
+### 三级标题
+
+> 
+
+$$ s = \sqrt{\frac{\sum(x_i-\overline{x})}{n-1}} $$
+
+$$E = mc^2$$
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
