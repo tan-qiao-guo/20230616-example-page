@@ -21,7 +21,7 @@
    [https://tan-qiao-guo.github.io/20230616-example-page/](https://tan-qiao-guo.github.io/20230616-example-page/)
 
 4. **R Markdown 排版基础教程（PDF）**  
-   [点击此处下载 PDF 教程](docs/R Markdown Reference Guide.pdf)
+   [点击此处下载 PDF 教程](docs/R%20Markdown%20Reference%20Guide.pdf)
    
 5. **发布个人排版的论文示例**  
    示例页面：  
